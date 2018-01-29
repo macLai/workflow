@@ -1,0 +1,30 @@
+输入参数:
+	是否发送信号
+
+	发送间隔, 毫秒
+
+	LTE参数
+		ue_id		UE ID
+		ps_id		PS ID
+		tx_power	发送功率
+		period		SPS 周期
+		data_len	数据长度
+
+		//priority	Packet priority
+	//	proc_id		SPS process id
+
+数据包内容
+	数据包编号
+	数据包发送时间
+	数据包填充值
+
+输出信息:
+	总丢包率(屏幕输出)
+
+	总传输延迟统计(屏幕输出)
+
+	当前接收功率(屏幕输出)
+
+	数据校验出错统计(屏幕输出)
+
+	//每条数据编号/传输延迟/接收功率/校验结果通过CSV记录, 供分析用
